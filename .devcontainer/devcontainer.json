@@ -1,0 +1,13 @@
+{
+  "name": "ROS Noetic",
+  "image": "osrf/ros:noetic-desktop-full",
+  "postCreateCommand": "apt-get update && apt-get install -y python3-pip && pip3 install catkin-tools",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.cpptools",
+        "ms-python.python"
+      ]
+    }
+  }
+}
